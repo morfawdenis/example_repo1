@@ -7,7 +7,6 @@ pipeline {
       steps {
         sh 'node --version'
         sh 'echo "Hello Our World"'
-        sh 'pwd'
         sh 'ls -ltr'
       }
     }
